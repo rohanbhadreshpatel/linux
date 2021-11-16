@@ -42,8 +42,22 @@ Note: I may decide to follow these instructions for random assignments, so you s
     cp -v /boot/config-$(uname -r) .config
     make oldconfig  
     make prepare
+    ```
+    ```
     make -j 2 modules
-    make -j 2
+    ```
+    or 
+    ```
+    make - j $(nproc) modules
+    ```
+    ```
+    make -j 2 
+    ```
+    or 
+    ```
+    make - j $(nproc)
+    ```
+    ```
     sudo make INSTALL_MOD_STRIP=1 modules_install #reduces the kernel build size that ignores the debug info
     sudo make install
     
