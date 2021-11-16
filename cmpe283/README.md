@@ -62,13 +62,14 @@ Note: I may decide to follow these instructions for random assignments, so you s
     ```
     ls *.ko
     ```
+12. Execute:
     ```
     sudo insmod cmpe283-1.ko
     dmesg
     sudo rmmod cmpe283_1
     dmesg
     ```
-12. To rebuild the file run commands – 
+13. To rebuild the file run commands – 
     ```
     sudo rmmod cmpe283-1
     sudo insmod ./cmpe283-1.ko
