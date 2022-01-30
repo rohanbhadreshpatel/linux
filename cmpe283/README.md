@@ -183,5 +183,5 @@ Note: I may decide to follow these instructions for random assignments, so you s
 [  504.838961]   Load PKRS: Can set=No, Can clear=Yes
 
 [  523.868882] CMPE 283 Assignment 1 Module Exits
-```
+``` 
 
